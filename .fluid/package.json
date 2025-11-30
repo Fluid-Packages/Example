@@ -3,10 +3,10 @@
   "run_after_install" : [
     "echo Example package install is successful!",
     "echo This messages are not from Fluid :D"
-  ]
+  ],
   "run_on_install" : "welcome.sh",
   "run_on_install_win32" : "welcome.bat",
   "autorun_win32" : false,
   "requirements" : null,
-  "official" : true,
+  "official" : true
 }
